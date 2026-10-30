@@ -1,80 +1,79 @@
-# AeryxIQ On-Premises Edition: licence
+# AeryxIQ On-Premises Edition: licensing
 
 ```
 AeryxIQ 1.0.0 On-Premises Edition
-Licence
+Licensing
 
-Copyright (c) 2026 Amhage Technology Group LLC. All rights reserved.
+Copyright (c) 2026 Amhage Technology Group LLC.
 AeryxIQ is a trademark of Amhage Technology Group LLC.
 
-1. THE SOFTWARE
+This edition comes in two parts, under two licences.
 
-   "The Software" means the AeryxIQ container images that this bundle
-   downloads and runs.
 
-2. GRANT
+PART A. THE DEPLOYMENT FILES: Apache License 2.0
 
-   Amhage Technology Group LLC grants you, free of charge, a
-   non-exclusive, worldwide, perpetual licence to install and run the
-   Software on hardware you own or control, for any purpose, commercial
-   purposes included, with no limit on the number of installations,
-   users, organisations, assets or studies.
+   Everything in this bundle, installer and appliance: compose.yaml, the
+   Caddyfile, env.example, the up, down, health, new-admin, backup and
+   trust-certificate scripts, the Windows installer, and the appliance's
+   first-boot configuration.
 
-   No fee is payable for this licence and no registration is required.
+   Licensed under the Apache License, Version 2.0. The full text is in
+   LICENSE-APACHE-2.0.txt beside this file, and at
+   https://www.apache.org/licenses/LICENSE-2.0
 
-3. WHAT YOU MAY NOT DO
+   Unless required by applicable law or agreed to in writing, these files
+   are distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS
+   OF ANY KIND, either express or implied.
 
-   You may not redistribute, sell, rent, sublicense or host the Software
-   as a service for others. You may not reverse engineer, decompile or
-   disassemble it, except where that right cannot lawfully be excluded.
-   You may not remove or alter its copyright, trademark or attribution
-   notices.
 
-4. THE DEPLOYMENT FILES
+PART B. THE APPLICATION: AeryxIQ On-Premises Licence
 
-   The remaining files in this bundle - compose.yaml, the Caddyfile,
-   env.example and the scripts - are published so that you can read,
-   adapt and operate them. You may copy and modify them freely, with or
-   without attribution, for the purpose of running your own
-   installation.
+   The AeryxIQ application is not contained in this bundle. It is the
+   pair of container images that the deployment files download on first
+   start, ghcr.io/amhage-technology-group/aeryxiq-backend and
+   aeryxiq-frontend.
 
-5. YOUR DATA
+   1. Grant. Amhage Technology Group LLC grants you, free of charge, a
+      non-exclusive, worldwide, perpetual licence to install and run the
+      application on hardware you own or control, for any purpose,
+      commercial purposes included, with no limit on installations,
+      users, organisations, assets or studies. No fee and no
+      registration.
 
-   Your flights, imagery, findings and reports are yours. The Software
-   does not transmit them anywhere. It contacts no licence server and
-   reports no usage. Outbound connections happen only for the optional
-   features you yourself configure in .env.
+   2. Limits. You may not redistribute, sell, rent, sublicense, or host
+      the application as a service for others. You may not reverse
+      engineer, decompile or disassemble it, except where that right
+      cannot lawfully be excluded. You may not remove or alter its
+      copyright, trademark or attribution notices.
 
-6. NO WARRANTY
+   3. Your data. Your flights, imagery, findings and reports are yours.
+      The application transmits them nowhere, contacts no licence server
+      and reports no usage. Outbound connections happen only for the
+      optional features you configure in .env.
 
-   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-   NONINFRINGEMENT.
+   4. No warranty. THE APPLICATION IS PROVIDED "AS IS", WITHOUT WARRANTY
+      OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+      WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+      NONINFRINGEMENT.
 
-7. LIMITATION OF LIABILITY
+   5. Limitation of liability. TO THE MAXIMUM EXTENT PERMITTED BY LAW,
+      AMHAGE TECHNOLOGY GROUP LLC SHALL NOT BE LIABLE FOR ANY CLAIM,
+      DAMAGES OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT OR OTHERWISE,
+      ARISING FROM OR IN CONNECTION WITH THE APPLICATION OR ITS USE.
 
-   TO THE MAXIMUM EXTENT PERMITTED BY LAW, AMHAGE TECHNOLOGY GROUP LLC
-   SHALL NOT BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
-   IN CONTRACT, TORT OR OTHERWISE, ARISING FROM OR IN CONNECTION WITH THE
-   SOFTWARE OR ITS USE.
+   6. Professional responsibility. AeryxIQ assists inspection work. It
+      holds no engineering, surveying or inspection certification of any
+      kind, and its automated assistance is not a professional opinion.
+      Every determination, grade and signature remains the responsibility
+      of the qualified person who makes it.
 
-8. PROFESSIONAL RESPONSIBILITY
+   7. Support. This licence includes no support. Support and
+      installation plans: https://aeryxiq.com/services/
 
-   AeryxIQ assists inspection work. It holds no engineering, surveying or
-   inspection certification of any kind, and its automated assistance is
-   not a professional opinion. Every determination, grade and signature
-   remains the responsibility of the qualified person who makes it.
-
-9. SUPPORT
-
-   This licence includes no support. Support and installation plans are
-   available separately at https://aeryxiq.com/services/
-
-10. TERM
-
-   This licence continues until you stop using the Software. It ends
-   immediately if you breach section 3.
+   8. Term. This licence continues until you stop using the application.
+      It ends immediately if you breach section 2.
 
 Questions: hello@aeryxiq.com
 ```
+
+The Apache License 2.0 text: https://www.apache.org/licenses/LICENSE-2.0 (also `LICENSE-APACHE-2.0.txt` in every download).
