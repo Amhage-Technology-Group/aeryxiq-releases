@@ -89,7 +89,14 @@ The software is free. Help with it is not, and the prices are public.
 
 ## Licence
 
-The On-Premises Edition is free to install and run, for any purpose, commercial use included. It may not be redistributed or resold. The deployment files in the bundle may be adapted freely. Full terms: [TERMS.md](TERMS.md).
+Two parts, two licences, both texts in every download:
+
+| Part | Licence |
+|---|---|
+| Deployment files: Windows installer, Compose bundle, scripts, appliance configuration | [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0) |
+| The AeryxIQ application, downloaded as container images on first start | AeryxIQ On-Premises Licence: free to install and run for any purpose, commercial use included; not to be redistributed or resold |
+
+Full terms: [TERMS.md](TERMS.md).
 
 AeryxIQ holds no engineering, surveying or inspection certification. Its automated assistance is assistance. Every determination and signature stays with the qualified person who makes it.
 
