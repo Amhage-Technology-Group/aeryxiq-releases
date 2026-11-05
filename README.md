@@ -72,6 +72,10 @@ sha256sum -c SHA256SUMS.txt --ignore-missing
 
 The Windows installer is not code signed yet. SmartScreen will say it does not recognise the publisher: choose More info, then Run anyway, after checking the hash.
 
+## Report a bug
+
+Found something that does not work? [Report a bug](https://github.com/Amhage-Technology-Group/aeryxiq-releases/issues/new?template=bug_report.yml) or [suggest an improvement](https://github.com/Amhage-Technology-Group/aeryxiq-releases/issues/new?template=feature_request.yml). The form asks how AeryxIQ is installed, the version and what happened. For anything private, including security issues, email support@aeryxiq.com.
+
 ## Support and services
 
 The software is free. Help with it is not, and the prices are public.
