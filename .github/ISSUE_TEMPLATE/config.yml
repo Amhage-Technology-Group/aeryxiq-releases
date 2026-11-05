@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Private report or security issue
+    url: https://aeryxiq.com/services/#support
+    about: Email support@aeryxiq.com for anything you do not want public, including security issues.
+  - name: Buy support or a professional install
+    url: https://aeryxiq.com/services/
+    about: Support Plan $199 per month, Professional Install $499 one-time.
