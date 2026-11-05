@@ -74,7 +74,7 @@ The Windows installer is not code signed yet. SmartScreen will say it does not r
 
 ## Report a bug
 
-Found something that does not work? [Report a bug](https://github.com/Amhage-Technology-Group/aeryxiq-releases/issues/new?template=bug_report.yml) or [suggest an improvement](https://github.com/Amhage-Technology-Group/aeryxiq-releases/issues/new?template=feature_request.yml). The form asks how AeryxIQ is installed, the version and what happened. For anything private, including security issues, email support@aeryxiq.com.
+Found something that does not work? [Report a bug](https://github.com/Amhage-Technology-Group/aeryxiq-releases/issues/new?template=bug_report.yml) or [suggest an improvement](https://github.com/Amhage-Technology-Group/aeryxiq-releases/issues/new?template=feature_request.yml). The form asks how AeryxIQ is installed, the version and what happened. For anything private, including security issues, email michael.romansky@amhage.com.
 
 ## Support and services
 
