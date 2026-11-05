@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thank you for taking the time to report this. Please do not paste passwords, keys, customer data or imagery you are not allowed to share. For a private report, email support@aeryxiq.com instead.
+        Thank you for taking the time to report this. Please do not paste passwords, keys, customer data or imagery you are not allowed to share. For a private report, email michael.romansky@amhage.com instead.
   - type: dropdown
     id: install
     attributes:
