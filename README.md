@@ -10,15 +10,15 @@ An Amhage Technology Group LLC product.
 
 ## Download
 
-Current release: **[1.0.0](https://github.com/Amhage-Technology-Group/aeryxiq-releases/releases/latest)**
+Current release: **[1.0.1](https://github.com/Amhage-Technology-Group/aeryxiq-releases/releases/latest)**
 
 | You have | Download |
 |---|---|
 | Windows 10 or 11 with Docker Desktop | [AeryxIQ-Setup.exe](https://github.com/Amhage-Technology-Group/aeryxiq-releases/releases/latest/download/AeryxIQ-Setup.exe) |
-| Linux, macOS or a server with Docker | [aeryxiq-onprem-1.0.0.zip](https://github.com/Amhage-Technology-Group/aeryxiq-releases/releases/latest/download/aeryxiq-onprem-1.0.0.zip) |
-| VMware, VirtualBox, Proxmox or Hyper-V | [AeryxIQ-Appliance-1.0.0.ova](https://github.com/Amhage-Technology-Group/aeryxiq-releases/releases/latest/download/AeryxIQ-Appliance-1.0.0.ova) |
+| Linux, macOS or a server with Docker | [aeryxiq-onprem-1.0.1.zip](https://github.com/Amhage-Technology-Group/aeryxiq-releases/releases/latest/download/aeryxiq-onprem-1.0.1.zip) |
+| VMware, VirtualBox, Proxmox or Hyper-V | [AeryxIQ-Appliance-1.0.0.ova](https://github.com/Amhage-Technology-Group/aeryxiq-releases/releases/download/v1.0.0/AeryxIQ-Appliance-1.0.0.ova) (unchanged; set AERYXIQ_VERSION=1.0.1 in /opt/aeryxiq/.env to run 1.0.1) |
 
-Manuals: [Quick Start](https://github.com/Amhage-Technology-Group/aeryxiq-releases/releases/latest/download/AeryxIQ-Quick-Start-Guide-1.0.0.pdf) · [Installation Guide](https://github.com/Amhage-Technology-Group/aeryxiq-releases/releases/latest/download/AeryxIQ-Installation-Guide-1.0.0.pdf) · [Administrator Guide](https://github.com/Amhage-Technology-Group/aeryxiq-releases/releases/latest/download/AeryxIQ-Administrator-Guide-1.0.0.pdf)
+Manuals: [Quick Start](https://github.com/Amhage-Technology-Group/aeryxiq-releases/releases/latest/download/AeryxIQ-Quick-Start-Guide-1.0.1.pdf) · [Installation Guide](https://github.com/Amhage-Technology-Group/aeryxiq-releases/releases/latest/download/AeryxIQ-Installation-Guide-1.0.1.pdf) · [Administrator Guide](https://github.com/Amhage-Technology-Group/aeryxiq-releases/releases/latest/download/AeryxIQ-Administrator-Guide-1.0.1.pdf)
 
 Also mirrored on SourceForge.
 
@@ -50,8 +50,8 @@ Windows: run `AeryxIQ-Setup.exe`, then Start AeryxIQ from the Start Menu.
 Linux or macOS:
 
 ```
-unzip aeryxiq-onprem-1.0.0.zip
-cd aeryxiq-1.0.0
+unzip aeryxiq-onprem-1.0.1.zip
+cd aeryxiq-1.0.1
 ./up.sh --with-demo
 ```
 
@@ -89,7 +89,7 @@ The software is free. Help with it is not, and the prices are public.
 | Hosted, Pilot: we run it for you | $1,490 per year |
 | Hosted, Team: multi-user with roles | $4,990 per year |
 
-[aeryxiq.com/services](https://aeryxiq.com/services/) · support@aeryxiq.com
+[aeryxiq.com/services](https://aeryxiq.com/services/) · michael.romansky@amhage.com
 
 ## Licence
 
